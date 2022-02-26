@@ -1,33 +1,89 @@
 extensions = {
-    'images': [
+    'Images': [
         '.img',
         '.jpeg',
         '.jpg',
         '.png',
-        # '.svg',
-        # '.webp',
-        # '.jfif',
-        # '.jpeg',
-        # '.pjp',
-        # '.apng',
-        # '.avif',
-        # '.gif',
-        # '.bmp',
-        # '.ico',
-        # '.cur',
-        # '.tif',
-        # '.tiff'
+        '.svg',
+        '.webp',
+        '.jfif',
+        '.jpeg',
+        '.pjp',
+        '.apng',
+        '.avif',
+        '.gif',
+        '.bmp',
+        '.ico',
+        '.cur',
+        '.tif',
+        '.tiff',
+        '.psd'
     ],
-    'audio': [
-        '.mp3'
+    'Audio': [
+        '.mp3',
+        '.m4a',
+        '.aiff',
+        '.wav',
+        '.flac',
+        '.shn',
+        '.ape',
+        '.wv',
+        '.ogg',
+        '.tta',
+        '.spx'
+
     ],
-    'video': [],
-    'text': [
-        '.txt'
+    'Video': [
+        '.mov',
+        '.swf',
+        '.mp4',
+        '.mkv',
+        '.flv',
+        '.wmv',
+        '.avi',
+        '.3gp',
+        '.vob',
+        '.aaf',
+        '.mod',
+        '.mpeg'
     ],
-    'compressed': [
-        '.rar'
+    'Documents': [
+        '.txt',
+        '.odt',
+        '.rtf',
+        '.doc',
+        '.tex',
+        '.chm',
+        '.pdf',
+        '.htm',
+        '.html',
+        '.docx',
     ],
+    'Compressed': [
+        '.rar',
+        '.7z',
+        '.deb',
+        '.gz',
+        '.pkg',
+        '.rar',
+        '.sit',
+        '.tar.gz',
+        '.tgz',
+        '.zip'
+    ],
+    'Programs': [
+        '.exe'
+    ],
+    'PPTs': [
+        '.ppt',
+        '.pptx'
+    ],
+    'E-Books': [
+        '.epub'
+    ],
+    'Torrents': [
+        '.torrent'
+    ]
 }
 
 
