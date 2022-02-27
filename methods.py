@@ -7,11 +7,11 @@ def isInExt(file_extension):
             return True
     return False
 
-def renameFile(new_path, file, file_extension):
+def renameFile(new_path, file, file_name, file_extension):
     i = 1
     temp = os.path.join(new_path,file)
     while os.path.exists(temp):
-        new_name = f"{file}({i}){file_extension}"
+        new_name = f"{file_name}({i}){file_extension}"
         temp = os.path.join(new_path,new_name)
         i+=1
     return new_name
@@ -30,7 +30,7 @@ def moveFile(file, base_path):
                 new_name = file
 
                 if os.path.exists(os.path.join(new_path, file)):
-                    new_name = renameFile(new_path, file, file_extension)
+                    new_name = renameFile(new_path, file, file_name, file_extension)
 
                 shutil.move(from_path, os.path.join(new_path, new_name))
     else:
