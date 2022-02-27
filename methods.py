@@ -37,6 +37,6 @@ def moveFile(file, base_path):
         new_path = os.path.join(base_path, f"Others/")
         new_name = file
         if os.path.exists(os.path.join(new_path, file)):
-            new_name = renameFile(new_path, file, file_extension)
+            new_name = renameFile(new_path, file, file_name, file_extension)
 
         shutil.move(from_path, os.path.join(new_path, new_name))
